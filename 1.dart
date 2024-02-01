@@ -3,7 +3,7 @@ import 'dart:io';
 void main() {
   try {
     stdout.write("Enter the no:");
-
+    // akjsdfk
     int num = int.parse(stdin.readLineSync()!);
     print("Digit is = $num");
     print("${palindrome(num)}");
@@ -11,6 +11,7 @@ void main() {
     print("add only Intger not sring");
   }
 }
+
 palindrome(int num) {
   String str = num.toString();
   String rev = str.split("").reversed.join();
