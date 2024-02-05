@@ -135,7 +135,7 @@
 //       "product of marks = ${map.values.reduce((value, element) => value * element)}");
 //   print("max = ${map.values.reduce((a, b) => a > b ? a : b)}");
 //   print("Min = ${map.values.reduce((a, b) => a < b ? a : b)}");
-// ---- // Merging MAp
+/// ---- // Merging MAp
   // Map<String, int> map2 = {
   //   "Maths": 45,
   //   "C": 50,
